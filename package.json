@@ -10,7 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.4"
+    "@openzeppelin/contracts": "^5.0.2",
+    "forge-std-no-submodules": "^1.5.4",
+    "hardhat": "^2.22.4",
+    "hardhat-deploy": "^0.12.4",
+    "solmate": "^6.2.0"
   },
   "dependencies": {
     "@nomiclabs/hardhat-etherscan": "^3.1.8",

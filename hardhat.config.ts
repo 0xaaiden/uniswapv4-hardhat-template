@@ -24,6 +24,14 @@ const config: HardhatUserConfig = {
 
     }
   },
+  ignition: {
+    strategyConfig: {
+      create2: {
+        // To learn more about salts, see the CreateX documentation
+        salt: "0x0000000000000000000000000000000000000000000000000000000000000000",
+      },
+    },
+  },
   etherscan: {
     apiKey: "YOUR_ETHERSCAN_API_KEY" // Replace with your Etherscan API key
   },
